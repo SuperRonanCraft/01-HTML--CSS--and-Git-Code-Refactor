@@ -3,10 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Added a better title -->
     <title>Horiseon - SEO, Reputation & Social Media Marketing</title>
   </head>
 
   <body>
+    <!-- Changed from div to header -->
     <header class="header">
       <h1>Hori<span class="seo">seo</span>n</h1>
       <nav>
@@ -25,11 +27,21 @@
         </ul>
       </nav>
     </header>
+    <!-- Changed from div to section as this is the main image -->
     <section>
-      <img class="hero" src="/assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Team Meeting">
+      <!-- Moved image from CSS to Index.html to be able to add ALT seo text -->
+      <img
+        class="hero"
+        src="/assets/images/digital-marketing-meeting.jpg"
+        alt="Digital Marketing Team Meeting"
+      />
     </section>
     <main class="content">
-      <div id="search-engine-optimization" class="search-engine-optimization">
+      <!-- Added an ID for hot link to work -->
+      <section
+        id="search-engine-optimization"
+        class="search-engine-optimization"
+      >
         <img
           src="./assets/images/search-engine-optimization.jpg"
           class="float-left"
@@ -42,8 +54,8 @@
           home. Search Engine Optimization (SEO) allows you to increase your
           visibility and find the right customers for your business.
         </p>
-      </div>
-      <div
+      </section>
+      <section
         id="online-reputation-management"
         class="online-reputation-management"
       >
@@ -60,8 +72,8 @@
           control over what potential customers see when they search for your
           business.
         </p>
-      </div>
-      <div id="social-media-marketing" class="social-media-marketing">
+      </section>
+      <section id="social-media-marketing" class="social-media-marketing">
         <img
           src="./assets/images/social-media-marketing.jpg"
           class="float-left"
@@ -74,8 +86,9 @@
           to your brand, using analytics to find the right markets and increase
           your lead generation.
         </p>
-      </div>
+      </section>
     </main>
+    <!-- Changed from div to aside and added ALT text to images -->
     <aside class="benefits">
       <div class="benefit-lead">
         <h3>Lead Generation</h3>
@@ -102,8 +115,9 @@
         </p>
       </div>
     </aside>
+    <!-- Changed from div to footer -->
     <footer class="footer">
-      <h4>Made with ❤️️ by Horiseon</h2>
+      <h4>Made with ❤️️ by Horiseon</h4>
       <p>&copy; 2024 Horiseon Social Solution Services, Inc.</p>
     </footer>
   </body>
