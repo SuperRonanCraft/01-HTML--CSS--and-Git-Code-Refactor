@@ -1,7 +1,8 @@
 # Horiseon SEO Refactoring
 
 Visit [Deployment](https://superronancraft.github.io/Seo-Code-Refactor/) on Github Pages  
-Source code to this project can be located [here](index.html)
+Source code to this project can be located [here](index.html)  
+Issues were used in the making of this project [here](../../issues?q=is%3Aissue+is%3Aclosed)
 
 ## Description of Project
 
