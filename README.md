@@ -1,3 +1,10 @@
-<h3 align="center">Horiseon SEO Refactoring</h3>
+# Horiseon SEO Refactoring
 
-<p>Link to Deployment <a href=""></a></p>
+Visit [Deployment](https://superronancraft.github.io/Seo-Code-Refactor/) on Github Pages
+
+## Description of Project
+
+This is a simply SEO refactoring project  
+In this project we edited semantic HTML elements to better SEO
+
+## Screenshot

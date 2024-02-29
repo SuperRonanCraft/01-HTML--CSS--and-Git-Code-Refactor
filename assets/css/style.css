@@ -52,12 +52,12 @@ p {
 }
 
 .hero {
-  height: 800px;
+  height: 100%;
   width: 100%;
   margin-bottom: 25px;
   /* Removed background image for ability to add ALT text */
   /* background-image: url(""); */
-  background-size: cover;
+  background-size: auto;
   background-position: center;
 }
 
